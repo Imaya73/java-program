@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <style>
+ .section-box{
+    width: 75%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+
+h2{
+    color: rgb(65, 135, 240);
+}
+
+.about-content{
+    text-align: center;
+}
+
+.about-content img{
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td{
+    border: 1px solid #ccc;
+}
+
+th{
+    background-color: rgb(65, 135, 240);
+    color: white;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button{
+    background-color: rgb(65, 135, 240);
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+            .header{
+                 height: 30vh;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 text-align: center;
+                 align-items: center;
+                 background-color: rgb(65, 135, 240);
+                 color: white;
+                 padding: 15px; 
+            }
+              nav ul {
+                list-style: none;
+                display: flex; 
+                justify-content: center; 
+                align-items: center;
+                background-color:white;
+                padding: 0;
+                margin: 0;
+            }
+            nav ul li{
+                padding: 15px 20px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: antiquewhite;
+                font-weight: bold;
+                font-size: 1rem;
+                color: rgb(65, 135, 240);
+            }
+            footer{
+    background-color: rgb(65, 135, 240);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+        </style>
+        </head>
+        <body>
+            <header class="header" id="home">
+       <div class="medal"></div>
+        <h1>Welcome to My Personal Website</h1>
+        <p>Learning HTML | Practicing Web Development | Created by Imaya B</p>
+            </header>     
+            
+    <nav>
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+   <section id="about">
+    <div class="section-box">
+
+        <h2>About Me</h2>
+
+        <div class="about-content">
+            <img src="profile.jpg" alt="profile">
+
+            <p>
+                Hello! My name is Imaya B. I am a student currently learning HTML and CSS.
+            </p>
+
+            <p>
+                "The harder you work for something, the greater you'll feel when you achieve it."
+            </p>
+        </div>
+
+    </div>
+</section>
+<section id="skills">
+    <div class="section-box">
+        <h2>My Skills</h2>
+        <p>Here are some skills I am currently learning</p>
+        <table style="width: 50%; margin:20px";>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                        <th>Remarks</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Intermediate</td>
+                        <td>Building webpages</td>
+
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                        <td>Styling the website</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Intermediate</td>
+                        <td>Logic and backend scripting</td>
+                    <tr>  
+                        <td>SQL</td>
+                        <td>Beginner</td>
+                        <td>Database operations</td>
+                    </tr>
+
+                    </tr>
+                    
+                </table>
+    </div>
+</section>
+<section id="contact">
+    <div class="section-box">
+        <h2>Contact Me</h2>
+        <p style="text-align:center; font-size:16px;">
+            If you'd like to connect, fill out the form below 👇
+        </p>
+
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Message</label>
+            <textarea rows="4" placeholder="Your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Imaya B | All Rights Reserved ❤️</p>
+</footer>
+
+    
+
+        </body>
+        </html>
+        

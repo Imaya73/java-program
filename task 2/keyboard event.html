@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head></head>
+    <body>
+        <input type="text" id="keyInput" placeholder="Type something">
+        <p id="state"></p>
+        <script>
+            document.getElementById("keyInput").onkeydown = function(){
+                console.log("Key Pressed Down");
+            };
+             document.getElementById("keyInput").onkeyup = function(){
+                console.log("Key Released");
+             };
+        </script>
+        </body>
+</html>
